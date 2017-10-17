@@ -23,7 +23,7 @@ class CashRegister
       "There is no discount to apply."
     else
       discount_total = @total - (@total*@discount*0.01)
-      @total = discount_total
+      @total = discount_total.to_nearest_i
       "After the discount, the total comes to $#{@total}."
     end
   end
