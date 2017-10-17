@@ -25,7 +25,6 @@ class CashRegister
       discount_total = @total - (@total*@discount*0.01)
       discount_total.class
       @total = discount_total
-      @total.0.class
       "After the discount, the total comes to $#{@total}."
     end
   end
