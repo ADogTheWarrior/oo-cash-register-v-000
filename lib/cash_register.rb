@@ -1,4 +1,4 @@
 class CashRegister
-  def initialize()
+  def initialize(money)
   end
 end
