@@ -33,6 +33,6 @@ class CashRegister
   end
 
   def void_last_transaction
-    @total -= @last_price
+    @total.round -= @last_price
   end
 end
