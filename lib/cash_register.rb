@@ -26,7 +26,7 @@ class CashRegister
       discount_total.class
       @total = discount_total
       @total.class
-      "After the discount, the total comes to $#{@total}"
+      "After the discount, the total comes to $#{@total}."
     end
   end
 
