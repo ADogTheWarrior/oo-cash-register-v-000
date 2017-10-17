@@ -11,7 +11,7 @@ class CashRegister
   end
 
   def add_item(name, price, quantity = 1)
-    last_price = price
+    @last_price = price
     quantity.times do
       @items << name
       @total += price
