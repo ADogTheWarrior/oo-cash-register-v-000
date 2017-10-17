@@ -9,6 +9,7 @@ class CashRegister
   end
 
   def add_item(name, price)
+    @items << name
   end
 
   def apply_discount
